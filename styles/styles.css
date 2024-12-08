@@ -1,0 +1,240 @@
+/************* your name: Jiro Roales */
+
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.fake-button {
+    background-color: #E5AF42;
+    text-align: center;
+    line-height: 3;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+.fake-button:hover, .blue-hover:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
+header, footer {
+    background-color: #E5AF42;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+main {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #E5AF42;
+    height: 60px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+main.index .flex {
+    flex-direction: row;
+}
+
+main.index .flex img {
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+main.index .flex .about-us {
+    flex: 1;
+}
+
+main.index h2 {
+    line-height: 36px;
+}
+
+main.index p {
+    margin-bottom: 12px;
+}
+
+main.index .fake-button {
+    width: 250px;
+    margin-left: 150PX;
+}
+
+main.booking-page {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+main.booking-page ul.day-selector li {
+    margin: 0 10px;
+    width: 60px;
+    border: 1px solid black;
+    margin-bottom: 12px;
+    
+}
+
+#clear-button {
+    display: block; 
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid black;
+    line-height: 1.5;
+}
+
+main.booking-page ul.day-selector {
+    display: flex;
+    justify-content: center;
+}
+
+main.booking-page .small-button {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+main.booking-page .top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+main.booking-page #clear-button {
+    width: 200px;
+}
+
+.clicked {
+    background-color: #E5AF42;
+}
+
+form .flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+form label {
+    width: 150px;
+    text-align: right;
+    margin-right: 12px;
+}
+
+form input, form textarea {
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    padding: 6px;
+    width: 300px;
+}
+
+form button {
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    background-color: #E5AF42;
+    color: black;
+    cursor: pointer;
+    padding: 8px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 155px;
+    text-align: center;
+}
+
+main.contact h2 {
+    margin-bottom: 20px;
+}
+
+main.contact {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.contact .flex {
+    margin-bottom: 24px;
+    width: 450px;
+    justify-content: space-between;
+}
+
+main.contact textarea {
+    height: 150px;
+}
+
+main.contact input, main.contact textarea, main.contact button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+}
